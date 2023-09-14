@@ -61,6 +61,11 @@
 }
 
 
+@media( max-width: 767px){
+	p{ font-size: 16px; }
+}
+
+
 @media (max-width: 425px){
 	h2{ font-size: 40px; }
 	.navbar-brand img{ width: 120%; }
@@ -101,7 +106,7 @@
 	.desk-hide{ display: block; }
 	.bottom-logo .f-logo{ width: 85%; }
 	.offset-1 { margin-left: 6.333333%; }
-	.support p{ margin: 20px 0; color: #212529; }
+	.support p{ margin: 20px 0; color: #fff; }
 	.sup-phn{ margin: 20px 0; }
 	.bf-left{ margin: 15px 0; font-size: 16px; }
 	.bf-right{ font-size: 16px; }
