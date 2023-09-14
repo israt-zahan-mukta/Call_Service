@@ -106,8 +106,8 @@
 	.desk-hide{ display: block; }
 	.bottom-logo .f-logo{ width: 85%; }
 	.offset-1 { margin-left: 6.333333%; }
-	.support p{ margin: 20px 0; color: #fff; }
+	.support p{ margin: 20px 0; color: #212529; }
 	.sup-phn{ margin: 20px 0; }
-	.bf-left{ margin: 15px 0; font-size: 16px; }
+	.bf-left{ margin: 15px 0; font-size: 16px; color: #fff; }
 	.bf-right{ font-size: 16px; }
 }
