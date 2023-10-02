@@ -2,9 +2,11 @@
 	.phn-logo{ width: 40%; }
 	.navbar-brand{ width: 25%; }	
 	.navbar-toggler{ border: none; color: #f9f9f9; font-size: 30px; }
+	.navbar-toggler-icon{ background-size: 70%; }
 	.navbar-toggler:focus { box-shadow: none;}
 	.offcanvas{ background: #F9F9F9; }
 	.nav-link{ color: #0F65B3; font-size: 20px; }
+	.nav-link:hover{ color: #46a037; }
 	.phn{ border: 1px solid #0F65B3; text-align: center; padding: 5% 0; margin:15%;}
 	.phn:hover{ background: #0F65B3; color: #fff; border: 1px solid #0F65B3;}
 
@@ -28,8 +30,9 @@
 	.industry-btn{ margin-top: 50px; }
 
 	.question-section h2{  margin-bottom: 6%; }
-	.question-content{ font-size: 23px; }
 	.question-tbl{ padding-top: 15px; }
+	.accordion-item{ border: none; }
+	.accordion-button:not(.collapsed){ background-color: #fff !important; }
 
 	.f-logo{ width: 80%; }
 	.bg-five{ width: 75%; }
@@ -63,15 +66,16 @@
 
 @media( max-width: 767px){
 	p{ font-size: 16px; }
+	.navbar-brand img{ width: 120%; }
+	.hero-section .hero-img{ position: static; width: 92%;}
+	.hight{ flex-direction: column-reverse; }
+	.hero-section{ text-align: center; }
 }
 
 
 @media (max-width: 425px){
 	h2{ font-size: 40px; }
 	.navbar-brand img{ width: 120%; }
-	.hero-section .hero-img{ position: static; width: 92%;}
-	.hight{ flex-direction: column-reverse; }
-	.hero-section{ text-align: center; }
 	.hero-section h1{ font-size: 42px; }
 	.hero-section h6{ margin: 6% 0 8%; font-size: 18px; }
 	.button{ font-size: 18px; padding: 20px;}
@@ -95,7 +99,7 @@
 	.industry-tbl{ margin: 15% 10% 0; height: auto; padding-bottom: 5%; }
 
 	.question-section h2{ margin: 30px 0; }
-	.question-content{ font-size: 18px; }
+	.accordion-header p{ font-size: 18px; }
 
 	.footer-section{ text-align: center; padding-bottom: 18px;}
 	.footer-img{ position: static; width: 80%; }
@@ -110,4 +114,29 @@
 	.sup-phn{ margin: 20px 0; }
 	.bf-left{ margin: 15px 0; font-size: 16px; color: #fff; }
 	.bf-right{ font-size: 16px; }
+}
+
+@media (max-width: 375px){
+	.navbar-brand img{ width: 157%; }
+	.service-section .service-img{ top: 1%; left: 7%; }
+	.sup-num{ color: #000; border: 1px solid #000; }
+	.icon-content p{ font-size: 15px; }
+}
+
+
+@media (max-width: 320px){
+	.phn{ font-size: 16px; }
+	.service-section .service-img{ position: static; width: 92%;}
+	.hight{ flex-direction: column-reverse; }
+	.service-row{ text-align: center; }
+	.title{ text-align: center; }
+	.process-tbl{ margin-top: 45px; }
+	.num-border{ top: -10%; }
+	.mid{ top: -11.5%; }
+	.process-tbl h3{ margin-top: 7%; }
+	.footer-img{ width: 90%; }
+	.icon-content p{ font-size: 13px; }
+	.icon-content{ margin-bottom: 10px; }
+	.bottom-logo .f-logo{ width: 90%; }
+	.bf-left{ color: #000; }
 }

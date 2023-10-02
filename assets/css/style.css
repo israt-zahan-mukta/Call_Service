@@ -313,25 +313,31 @@ header{
 .question-section h2{
     margin-bottom: 3%;
 }
-.question-tbl{
+.accordion-item{
     margin: 2% 0 0;
     background: #fff;
-    border-radius: 20px;
-    padding: 1.3% 2% .3%;
     box-shadow: 15px 0px 25px #DEDEDE;
     transition: all 0.3s ease-in-out;
 }
-.question-tbl:hover{
+.accordion-item h2{
+    margin-bottom: 0;
+    font-size: 28px !important;
+}
+.accordion-item:hover{
     background: #e9e6e6;
 }
-.question-content{
-    font-size: 27px;
-    font-weight: 700;
+.accordion-header{
+   display: flex;
 }
-.question-content i{
-    margin-right: 2%;
+.accordion-header i{
     color: #0F65B3;
     font-size: 23px;
+    padding-right: 10px;
+}
+.accordion-header p{
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 700;
 }
 /* Footer CSS */
 .footer-section{
